@@ -1,9 +1,9 @@
-// Author: Yanling Wang yuw17@psu.edu
+// Author: zhuoyangjiang zfj5038@psu.edu
 // Collaborator:
 // Collaborator:
 // Collaborator:
-// Section: 1
-// Breakout: 12
+// Section: 7
+// Breakout: 
 #include "stdio.h"
 #include "stdlib.h"
 
