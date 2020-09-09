@@ -7,11 +7,15 @@
 #include "stdio.h"
 #include "stdlib.h"
 
+#include "stdio.h"
+#include "stdlib.h"
+
 int main()
 {
     double grade;
-    printf("Enter your CMPSC 131 grade:");
+    printf("Enter your CMPSC 131 grade: ");
     scanf("%lf", &grade);
+    printf("%.2f\n" , grade);
     if(grade >= 93.0)
         printf("Your letter grade for CMPSC 131 is A.\n");
     else if(grade >= 90.0)
