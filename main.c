@@ -6,16 +6,16 @@
 // Breakout: 
 #include "stdio.h"
 #include "stdlib.h"
-
-#include "stdio.h"
-#include "stdlib.h"
+#include "string.h"
 
 int main()
 {
     double grade;
+    char str[10];
     printf("Enter your CMPSC 131 grade: ");
-    scanf("%lf", &grade);
-    printf("%.2f\n" , grade);
+    scanf("%s", str);
+    printf("%s\n" , str);
+    grade = atof(str);
     if(grade >= 93.0)
         printf("Your letter grade for CMPSC 131 is A.\n");
     else if(grade >= 90.0)
