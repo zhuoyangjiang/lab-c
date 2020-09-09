@@ -10,8 +10,8 @@
 int main()
 {
     double grade;
-    scanf("%lf",&grade);
-    printf("Enter your CMPSC 131 grade: %.2f\n",grade);
+    printf("Enter your CMPSC 131 grade:");
+    scanf("%lf", &grade);
     if(grade >= 93.0)
         printf("Your letter grade for CMPSC 131 is A.\n");
     else if(grade >= 90.0)
@@ -30,4 +30,5 @@ int main()
         printf("Your letter grade for CMPSC 131 is D.\n");
     else 
         printf("Your letter grade for CMPSC 131 is F.\n");
+    return 0;
 }
